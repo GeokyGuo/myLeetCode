@@ -95,5 +95,28 @@ public class Solution {
 
         return re.toString();
     }
+
+/*    作者：powcai
+    链接：https://leetcode-cn.com/problems/two-sum/solution/zhi-jie-tui-mo-ni-guo-cheng-by-powcai/
+    来源：力扣（LeetCode）
+    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。*/
+    private String next_time(String res) {
+        int i = 0;
+        int n = res.length();
+        String ans = "";
+        while (i < n) {
+            int count = 1;
+            while ((i < n - 1) && (res.charAt(i) == res.charAt(i + 1))) {
+                i++;
+                count++;
+            }
+            ans += (count + "" + res.charAt(i));
+            i++;
+
+        }
+        return ans;
+    }
+
+
 }
 
