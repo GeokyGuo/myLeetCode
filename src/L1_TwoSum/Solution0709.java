@@ -14,24 +14,25 @@ Example:
     Because nums[0] + nums[1] = 2 + 7 = 9,
     return [0, 1].*/
 
-public class Solution {
+public class Solution0709 {
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 5, 7, 9};
-        int target = 15;
+        int target = 14;
 
         System.out.println(Arrays.toString(twoSum(nums, target)));
     }
 
     public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            if (map.containsKey(target - num)) {
 
-                return new int[]{map.get(target - num), i};
+        for (int i = 0; i < nums.length; i++) {
+            if (!map.containsKey(target-nums[i])) {
+                map.put(nums[i],i);
+            }else{
+                return new int[]{map.get(target-nums[i]),i};
             }
-            map.put(num, i);
+
         }
         return null;
     }
