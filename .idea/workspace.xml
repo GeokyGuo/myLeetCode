@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="915e53cc-f376-4343-8b71-9c4c2d453649" name="Default Changelist" comment="复习  1、21、27">
+    <list default="true" id="915e53cc-f376-4343-8b71-9c4c2d453649" name="Default Changelist" comment="新题 83 88 100  有序数组合并，链表删除重复， 二叉树的递归框架">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/L27_RemoveElement/note" beforeDir="false" afterPath="$PROJECT_DIR$/out/L27_RemoveElement/note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/L100_SameTree/note" beforeDir="false" afterPath="$PROJECT_DIR$/src/L100_SameTree/note" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +16,46 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0711.java">
+        <entry file="file://$PROJECT_DIR$/src/L101_SymmetricTree/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="266">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/L101_SymmetricTree/note">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/L104_MaximumDepthofBinaryTree/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/L107_BinaryTreeLevelOrderTraversal2/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/note">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,10 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/1. 两数之和.kt" />
-        <option value="$PROJECT_DIR$/src/L1_TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.jsp" />
         <option value="$PROJECT_DIR$/src/L9_PalindromeNumber/Solution_toString.java" />
         <option value="$PROJECT_DIR$/src/L9_PalindromeNumber/Solution.java" />
         <option value="$PROJECT_DIR$/src/L7_ReverseInteger/Solution.java" />
@@ -105,6 +117,16 @@
         <option value="$PROJECT_DIR$/src/L70_ClimbingStairs/Solution.java" />
         <option value="$PROJECT_DIR$/src/L70_ClimbingStairs/note" />
         <option value="$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0711.java" />
+        <option value="$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/Solution.java" />
+        <option value="$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/note" />
+        <option value="$PROJECT_DIR$/src/L88_MergeSortedArray/Solution.java" />
+        <option value="$PROJECT_DIR$/src/L88_MergeSortedArray/note" />
+        <option value="$PROJECT_DIR$/src/L100_SameTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/L100_SameTree/note" />
+        <option value="$PROJECT_DIR$/src/L101_SymmetricTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/L101_SymmetricTree/note" />
+        <option value="$PROJECT_DIR$/src/L104_MaximumDepthofBinaryTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/L107_BinaryTreeLevelOrderTraversal2/Solution.java" />
       </list>
     </option>
   </component>
@@ -122,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -135,11 +158,23 @@
               <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="L107_BinaryTreeLevelOrderTraversal2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="L107_BinaryTreeLevelOrderTraversal2" type="462c0819:PsiDirectoryNode" />
+              <item name="Solution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,18 +192,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="L100_SameTree" />
+      <recent name="L88_MergeSortedArray" />
       <recent name="L28_ImplementstrStr" />
       <recent name="L27_RemoveElement" />
       <recent name="L1_TwoSum" />
-      <recent name="L21_MergeTwoSortedLists" />
-      <recent name="L26_RemoveDuplicatesfromSortedArray" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\personal\myLeetCode\src\L101_SymmetricTree" />
+      <recent name="D:\personal\myLeetCode\src\L88_MergeSortedArray" />
+      <recent name="D:\personal\myLeetCode\src\L83_RemoveDuplicatesfromSortedList" />
       <recent name="D:\personal\myLeetCode\src\L70_ClimbingStairs" />
       <recent name="D:\personal\myLeetCode\src\L69_SqrtX" />
-      <recent name="D:\personal\myLeetCode\src\L67_AddBinary" />
-      <recent name="D:\personal\myLeetCode\src\L66_PlusOne" />
-      <recent name="D:\personal\myLeetCode\src\L58_LengthofLastWord" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,37 +218,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L69_SqrtX.Solution" />
+      <option name="MAIN_CLASS_NAME" value="L100_SameTree.Solution" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L70_ClimbingStairs.Solution" />
+      <option name="MAIN_CLASS_NAME" value="L101_SymmetricTree.Solution" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L28_ImplementstrStr.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L83_RemoveDuplicatesfromSortedList.Solution" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L104_MaximumDepthofBinaryTree.Solution" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L67_AddBinary.Solution" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution0711" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L28_ImplementstrStr.Solution0711" />
+      <option name="MAIN_CLASS_NAME" value="L88_MergeSortedArray.Solution" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution0711" />
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -243,14 +278,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469798" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3512748" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2776204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,9 +377,11 @@
     <MESSAGE value="35题，记录了二分法模板" />
     <MESSAGE value="38题，报数序列" />
     <MESSAGE value="58、66题，找最后一个单词和 数组最后一位加一" />
-    <MESSAGE value="复习  1、21、27" />
     <MESSAGE value="add &#10;67、二进制字符串相加&#10;69、开方&#10;70 递归爬楼" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &#10;67、二进制字符串相加&#10;69、开方&#10;70 递归爬楼" />
+    <MESSAGE value="复习  1、21、27" />
+    <MESSAGE value="复习 28" />
+    <MESSAGE value="新题 83 88 100  有序数组合并，链表删除重复， 二叉树的递归框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="新题 83 88 100  有序数组合并，链表删除重复， 二叉树的递归框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,24 +398,22 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/Solution.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L88_MergeSortedArray/Solution.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TwoSum_1.java" />
-    <entry file="file://$PROJECT_DIR$/src/1. 两数之和.kt" />
-    <entry file="file://$PROJECT_DIR$/leetcode.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/L1/TwoSum.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/L13_RomanToInteger/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/L9_PalindromeNumber/Solution_toString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -672,6 +708,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="29" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L88_MergeSortedArray/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L100_SameTree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L88_MergeSortedArray/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L100_SameTree/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L101_SymmetricTree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L101_SymmetricTree/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L104_MaximumDepthofBinaryTree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L107_BinaryTreeLevelOrderTraversal2/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

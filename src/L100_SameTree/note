@@ -16,3 +16,8 @@ void traverse(TreeNode root) {
 
 2. 多个 if与 else if 的区别是， 多个if可能执行多个分支，  else if  必定只能执行其中某一个分支
 如果从业务逻辑考虑， 多个if 的判断也可能只会有一个分支执行， 或者 加上return 也可能只有一个分支执行
+
+https://fudonglai.github.io/2018/12/22/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B8%80/  作者的blog
+
+
+3.答案中还有个迭代法？  待研究
