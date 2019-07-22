@@ -21,16 +21,30 @@ package L9_PalindromeNumber;
         Coud you solve it without converting the integer to a string?*/
 
 
-
-public class Solution_toString {
+public class Solution0722 {
     public static void main(String[] args) {
+        int x = 22022;
+        System.out.println(isPalindrome(x));
 
     }
 
-    public static int reverse(int x) {
-
-
-        return x;
+    public static boolean isPalindrome(int x) {
+        if (x % 10 == 0 && x != 0) {
+            return false;
+        }
+        int y;
+        int sum = 0;
+        while (x > sum) {
+            y = x % 10;
+            sum = sum * 10 + y;
+            x = x / 10;
+        }
+ /*       if (sum == x || sum / 10 == x) {
+            return true;
+        } else {
+            return false;
+        }*/   //这样写太冗余了，if true return true,
+        return sum == x || sum / 10 == x;
     }
 
 
