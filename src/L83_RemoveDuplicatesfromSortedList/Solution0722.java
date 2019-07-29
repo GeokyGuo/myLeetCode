@@ -1,7 +1,6 @@
 package L83_RemoveDuplicatesfromSortedList;
 
 
-import static L83_RemoveDuplicatesfromSortedList.Solution.deleteDuplicates1;
 
 public class Solution0722 {
     public static void main(String[] args) {
