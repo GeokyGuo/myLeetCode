@@ -1,0 +1,12 @@
+DFS与BFS两种方案：
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--23/
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107er-cha-shu-de-ceng-ci-bian-li-iidui-lie-fa-he-d/
+
+Queue<Integer> queue = new LinkedList<>();
+Stack<Character> stack = new Stack();
+栈和队列在java中的调用
+
+poll peek  pop  push  empty isempty
+
+linklist 用来对付反转，可以头插
+栈也可以用来反转

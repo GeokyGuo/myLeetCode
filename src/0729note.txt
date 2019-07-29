@@ -1,0 +1,15 @@
+1.学到一个尾递归的概念， 就是递归发生在尾部， 不需要重新返回当前的递归等级
+
+
+2.前序中序后序遍历其实都属于  深度优先遍历   一般是递归的方法
+层序遍历其实属于            广度优先遍历  一般要借助 队列， 可以分成入队前访问和出队后访问
+
+所以对于【104题】求树的深度这个题目， 用深度优先能做，用广度优先也能做
+https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/er-cha-shu-de-zui-da-shen-du-by-leetcode/
+
+但是对于 【107题】 二叉树的层次遍历  虽然是说 层次遍历， 但是用深度优先（前序遍历）也是能满足业务要求的，结果看上去就像是层序遍历
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--23/
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107er-cha-shu-de-ceng-ci-bian-li-iidui-lie-fa-he-d/
+
+
+3.s提一个附加任务，就是分别用  广度做104 以及用深度做107
