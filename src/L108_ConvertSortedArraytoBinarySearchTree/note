@@ -1,0 +1,35 @@
+1.关于求中点的小知识：jdk中是 left+right>>>1，不溢出的原因是：
+
+其实问题的关键就是这里了>>> ，我们知道还有一种右移是>>。区别在于>>为有符号右移，右移以后最高位保持原来的最高位。而>>>这个右移的话最高位补 0。
+
+所以这里其实利用到了整数的补码形式，最高位其实是符号位，所以当 start + end溢出的时候，其实本质上只是符号位收到了进位，而>>>这个右移可以带着符号位右移，所以之前的信息没有丢掉。
+
+但>>有符号右移就会出现问题了，事实上 JDK6 之前都用的>>，这个 BUG 在 java 里竟然隐藏了十年之久。
+
+总
+关于求中点，大家以后就用>>>吧，比start + (end - start) / 2简洁不少，还能给别人科普一下补码的知识。
+
+2.本题中首先想到的思想是递归，但是代码写的有点繁琐，因为没有搞清楚边界的下标值该怎么传递，以及返回节点应该怎么返回！！
+
+如果用左中位数的话，那么一切右边界用恰好取不到的那个下标就好
+public TreeNode sortedArrayToBST(int[] nums) {
+    return sortedArrayToBST(nums, 0, nums.length);
+}
+
+private TreeNode sortedArrayToBST(int[] nums, int start, int end) {
+    if (start == end) {
+        return null;
+    }
+    int mid = (start + end) >>> 1;
+    TreeNode root = new TreeNode(nums[mid]);
+    root.left = sortedArrayToBST(nums, start, mid);
+    root.right = sortedArrayToBST(nums, mid + 1, end);
+
+    return root;
+}
+
+3.还有迭代法，即把递归拆分开的方法，后边再研究了
+https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-24/
+https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-24/
+
+4.有空了研究一下，平衡二叉树的生成代码是什么，是怎么转动的

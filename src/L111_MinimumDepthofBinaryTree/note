@@ -1,0 +1,12 @@
+1.泛型中<是一个对象，或者说是一个引用类型>
+
+那么即使是 null也要占一个位置，比如：
+Queue<TreeNode> queue = new LinkedList<>();
+queue.add(null); 这时queue的长度就从0变成了1
+
+2.以后要用深度优先再做一遍
+https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/li-jie-zhe-dao-ti-de-jie-shu-tiao-jian-by-user7208/
+还有迭代  到底啥意思
+https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/solution/er-cha-shu-de-zui-xiao-shen-du-by-leetcode/
+
+3.要理解题目中说的叶子节点是什么意思，  是两个孩子都空才算叶子，而非只要出现了null，就要算作叶子
