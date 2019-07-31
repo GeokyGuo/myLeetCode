@@ -12,4 +12,4 @@ https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/x
 https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107er-cha-shu-de-ceng-ci-bian-li-iidui-lie-fa-he-d/
 
 
-3.s提一个附加任务，就是分别用  广度做104 以及用深度做107
+3.提一个附加任务，就是分别用  广度做104 以及用深度做107

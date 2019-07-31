@@ -3,3 +3,5 @@
 if (left == null && right == null) return true;                 //运用框架的核心是这几行代码一定要把情况考虑全
 if (left == null || right == null) return false;
 if (left.val != right.val) return false;
+
+2.考虑 递归和广度优先

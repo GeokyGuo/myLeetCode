@@ -33,3 +33,5 @@ https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solu
 https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-24/
 
 4.有空了研究一下，平衡二叉树的生成代码是什么，是怎么转动的
+
+5.一种简单（答案）一种复杂（自己写）的两种递归，  虽然自己把答案按照框架写出来，但是很繁琐，因为生成树的节点的时候本来就不用把root作为参数进行递归，只有在遍历的时候作为参数才比较简单
