@@ -1,4 +1,0 @@
-Stack<Character> stack = new Stack<Character>();
- stack.peek(); 获取栈顶，但不移除
-
-java 中堆栈可以直接这样用

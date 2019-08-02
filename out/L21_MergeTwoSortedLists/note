@@ -1,7 +1,0 @@
-1. 缺陷1  重新组链表时，定义   新的头结点，和尾指针。   定义新的扫描指针！
-2. 不要忘了 这步操作完成，要 后移扫描指针
-3. 单链表的插入模型  p原有  s新插 则，   s.next = p.next; p.next =s;   删除S  则： p.next = s.next
-    双链表的插入模型 p原有， s新插， 后插则  s.next = p.next; p.next.prior = s; s.prior = p; p.next = s;
-                                    删除则:  s.next.prior = p; p.next  = s.next;
-
- 其他方法：递归的方法  后边有时间可以研究一下，思想：两个链表头部较小的一个与剩下元素的 merge 操作结果合并。
