@@ -28,7 +28,7 @@ public class Solution0718 {
 
         /**这一段是统计有几个几的核心代码，双while 加 if 模板，记住*/
         while (i < s.length()) {
-            while (i < s.length() && s.charAt(i) == temp) {
+            while (i < s.length() && s.charAt(i) == temp) {  //必须是i<len  在前，==在后，不然会出现空指针
                 count++;
                 i++;
             }
