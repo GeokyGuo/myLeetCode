@@ -1,14 +1,7 @@
 package L110_BalancedBinaryTree;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
+import util.TreeNode;
 
 public class Solution {
     public static void main(String[] args) {
