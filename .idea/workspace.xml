@@ -18,7 +18,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/L125_ValidPalindrome/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/L121BestTimetoBuyandSellStock/Solution0814.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/L88_MergeSortedArray/Solution0814.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/L53_MaximumSubarray/Solution.java" />
-        <option value="$PROJECT_DIR$/src/L53_MaximumSubarray/note" />
         <option value="$PROJECT_DIR$/src/L121BestTimetoBuyandSellStock/Solution.java" />
         <option value="$PROJECT_DIR$/src/L121BestTimetoBuyandSellStock/note" />
         <option value="$PROJECT_DIR$/src/L42_TrappingRainWater/note" />
@@ -84,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/L38_CountandSay/Solution0718.java" />
         <option value="$PROJECT_DIR$/src/L121BestTimetoBuyandSellStock/Solution0802.java" />
         <option value="$PROJECT_DIR$/src/test/test.java" />
-        <option value="$PROJECT_DIR$/src/L125_ValidPalindrome/Solution.java" />
         <option value="$PROJECT_DIR$/src/L125_ValidPalindrome/note" />
         <option value="$PROJECT_DIR$/src/L122_BestTimetoBuyandSellStockII/note" />
         <option value="$PROJECT_DIR$/src/L38_CountandSay/note" />
@@ -94,6 +119,9 @@
         <option value="$PROJECT_DIR$/src/L110_BalancedBinaryTree/Solution0803.java" />
         <option value="$PROJECT_DIR$/src/0724note.txt" />
         <option value="$PROJECT_DIR$/src/L112_PathSum/Solution0806.java" />
+        <option value="$PROJECT_DIR$/src/L125_ValidPalindrome/Solution.java" />
+        <option value="$PROJECT_DIR$/src/L121BestTimetoBuyandSellStock/Solution0814.java" />
+        <option value="$PROJECT_DIR$/src/L88_MergeSortedArray/Solution0814.java" />
       </list>
     </option>
   </component>
@@ -113,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,12 +150,21 @@
               <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="L88_MergeSortedArray" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,23 +181,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal\myLeetCode\src\L53_MaximumSubarray\beta0725" />
+      <recent name="D:\personal\myLeetCode\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="L88_MergeSortedArray" />
+      <recent name="L121BestTimetoBuyandSellStock" />
+      <recent name="L112_PathSum" />
+      <recent name="L110_BalancedBinaryTree" />
+      <recent name="L38_CountandSay" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\personal\myLeetCode\src\L125_ValidPalindrome" />
       <recent name="D:\personal\myLeetCode\src\L122_BestTimetoBuyandSellStockII" />
       <recent name="D:\personal\myLeetCode\src\L119_PascalTriangleII" />
       <recent name="D:\personal\myLeetCode\src\L118_PascalTriangle" />
       <recent name="D:\personal\myLeetCode\src\L112_PathSum" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="L112_PathSum" />
-      <recent name="L110_BalancedBinaryTree" />
-      <recent name="L121BestTimetoBuyandSellStock" />
-      <recent name="L38_CountandSay" />
-      <recent name="L107_BinaryTreeLevelOrderTraversal2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\personal\myLeetCode\src\L53_MaximumSubarray\beta0725" />
-      <recent name="D:\personal\myLeetCode\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution0806">
+  <component name="RunManager" selected="Application.Solution0814 (1)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L136_SingleNumber.Solution" />
       <module name="leetcode" />
@@ -188,13 +227,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution0802 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L121BestTimetoBuyandSellStock.Solution0802" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution0806" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L112_PathSum.Solution0806" />
       <module name="leetcode" />
@@ -202,8 +234,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test" />
+    <configuration name="Solution0814 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L88_MergeSortedArray.Solution0814" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution0814" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L121BestTimetoBuyandSellStock.Solution0814" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution0814 (1)" />
+        <item itemvalue="Application.Solution0814" />
         <item itemvalue="Application.Solution0806" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Solution0802 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,14 +272,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33825505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.28895184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.4631728" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3385269" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,20 +479,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/L104_MaximumDepthofBinaryTree/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="112" selection-start-line="1" selection-start-column="112" selection-end-line="1" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/0722note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution0724.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -735,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/L125_ValidPalindrome/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/L38_CountandSay/note">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -816,6 +835,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L125_ValidPalindrome/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L121BestTimetoBuyandSellStock/Solution0814.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L88_MergeSortedArray/Solution0814.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
