@@ -1,17 +1,9 @@
 package L108_ConvertSortedArraytoBinarySearchTree;
 
 
+import util.TreeNode;
+
 import java.util.*;
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 
 public class Solution {
