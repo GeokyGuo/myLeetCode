@@ -2,3 +2,14 @@ Stack<Character> stack = new Stack<Character>();
  stack.peek(); 获取栈顶，但不移除
 
 java 中堆栈可以直接这样用
+
+
+0820
+
+1. 为啥报空指针， 第一 null.XXX 这样调用  第二  把null赋值给了 int 或者 char 这种类型也会报错，
+        本题中 map.get 如果没有该key会报null  这时就不应该再给char赋值了
+
+2. 编程习惯， 比如 stack 这个集合 中如果要赋初值 那么 第一如果初始值只用一次，那么再程序开头赋值一次即可，然后循环从下标为1的第二位开始
+                                                    第二比如本题中 stack.peek 会报空，那么就要一直保持stack不为空，那么就在循环中 加if 去实现这种逻辑
+
+3. 如果 map.get 为空，那么说明来的符号是有特殊意义的， 比如栈外{ 直接进栈，  比如栈内} 直接返回false
