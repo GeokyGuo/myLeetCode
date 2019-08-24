@@ -1,15 +1,7 @@
 package L101_SymmetricTree;
 
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
+import util.TreeNode;
 
 public class Solution {
 
@@ -28,7 +20,7 @@ public class Solution {
     }
 
     public static boolean isSymmetric(TreeNode root) {
-        if (root ==null) {
+        if (root == null) {
             return true;
         }
         boolean bo = isSymmetric(root.left, root.right);

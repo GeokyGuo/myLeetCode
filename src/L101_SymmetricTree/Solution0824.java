@@ -3,7 +3,7 @@ package L101_SymmetricTree;
 
 import util.TreeNode;
 
-public class Solution0731 {
+public class Solution0824 {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(-1);
@@ -26,7 +26,8 @@ public class Solution0731 {
         return isSymmetric(root.left, root.right);
     }
 
-    static boolean isSymmetric(TreeNode left, TreeNode right) {
+    public static boolean isSymmetric(TreeNode left, TreeNode right) {
+
         if (left == null && right == null) {
             return true;
         }
@@ -38,5 +39,4 @@ public class Solution0731 {
         }
         return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
     }
-
 }
