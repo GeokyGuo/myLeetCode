@@ -1,7 +1,6 @@
 package L53_MaximumSubarray;
 
-
-public class Solution0729 {
+public class Solution0826 {
     public static void main(String[] args) {
         int[] nums = {3, -80, -2, -2, 1, 2, -60, 4, 5};
         int re = maxSubArray(nums);
@@ -9,30 +8,29 @@ public class Solution0729 {
 
     }
 
-    /**
-     * 还有一种分治法？ 有空研究一下
-     */
+
     public static int maxSubArray(int[] nums) {
-        if (nums.length == 0 || nums == null) {
+        if (nums.length == 0) {
             return 0;
         }
+        int d = nums[0];
 
-        int end = nums[0];
-        int sum = nums[0];
+        int remax = d;
 
         int i = 1;
         while (i < nums.length) {
-            if (end > 0) {
-                end = end + nums[i];
+            if (d > 0) {
+                d = d + nums[i];
             } else {
-                end = nums[i];
+                d = nums[i];
+            }
+
+            if (d > remax) {
+                remax = d;
             }
             i++;
-            if (end > sum) {
-                sum = end;
-            }
         }
 
-        return sum;
+        return remax;
     }
 }
