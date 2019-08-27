@@ -10,3 +10,6 @@ poll peek  pop  push  empty isempty
 
 linklist 用来对付反转，可以头插
 栈也可以用来反转
+
+
+null在queue中要占位，对付反转的方法

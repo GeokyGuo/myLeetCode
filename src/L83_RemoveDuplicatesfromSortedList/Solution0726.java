@@ -1,6 +1,8 @@
 package L83_RemoveDuplicatesfromSortedList;
 
 
+import util.ListNode;
+
 public class Solution0726 {
     public static void main(String[] args) {
         ListNode head = new ListNode(-1);

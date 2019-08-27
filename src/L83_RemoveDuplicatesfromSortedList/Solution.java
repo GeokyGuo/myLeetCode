@@ -1,14 +1,7 @@
 package L83_RemoveDuplicatesfromSortedList;
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
+import util.ListNode;
 
 public class Solution {
     public static void main(String[] args) {
