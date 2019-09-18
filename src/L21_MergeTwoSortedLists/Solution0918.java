@@ -3,7 +3,7 @@ package L21_MergeTwoSortedLists;
 
 import util.ListNode;
 
-public class Solution {
+public class Solution0918 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(2);
@@ -20,27 +20,34 @@ public class Solution {
     }
 
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode i1 = l1;//扫描指针
-        ListNode i2 = l2;
-        ListNode i3 = new ListNode(-1);//头结点
-        ListNode isla = i3;//尾指针
-        while (i1 != null && i2 != null) {
-            if (i1.val < i2.val) {
-                isla.next = i1;
-                isla = i1;
-                i1 = i1.next;
+
+        ListNode head = new ListNode(1);
+        ListNode last = head;
+
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                last.next = l1;
+                last = l1;
+                l1 = l1.next;
+                last.next = null;
             } else {
-                isla.next = i2;
-                isla = i2;
-                i2 = i2.next;
+                last.next = l2;
+                last = l2;
+                l2 = l2.next;
+                last.next = null;
             }
+
         }
-        if (i1 != null) {
-            isla.next = i1;
+
+        if (l1 != null) {
+            last.next = l1;
         }
-        if (i2 != null) {
-            isla.next = i2;
+        if (l2 != null) {
+            last.next = l2;
         }
-        return i3.next;
+
+
+        return head.next;
     }
+
 }

@@ -8,6 +8,8 @@ package L21_MergeTwoSortedLists;
         Output: 1->1->2->3->4->4*/
 
 
+import util.ListNode;
+
 public class Solution0724 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);

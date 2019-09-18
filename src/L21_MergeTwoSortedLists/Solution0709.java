@@ -1,6 +1,8 @@
 package L21_MergeTwoSortedLists;
 
 
+import util.ListNode;
+
 public class Solution0709 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(3);
