@@ -1,5 +1,7 @@
 package L111_MinimumDepthofBinaryTree;
 
+import util.TreeNode;
+
 public class Solution0731 {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(3);

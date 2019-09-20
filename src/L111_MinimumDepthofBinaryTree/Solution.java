@@ -1,17 +1,10 @@
 package L111_MinimumDepthofBinaryTree;
 
+import util.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class Solution {
     public static void main(String[] args) {
@@ -49,7 +42,7 @@ public class Solution {
             int flag = 0;
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
-                if (node==null) {
+                if (node == null) {
                     continue;
                 }
                 if (node.left == null && node.right == null) {
@@ -61,7 +54,7 @@ public class Solution {
                 queue.add(node.right);
             }
             level++;
-            if (flag==1) {
+            if (flag == 1) {
                 break;
             }
         }
