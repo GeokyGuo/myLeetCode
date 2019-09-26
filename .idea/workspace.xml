@@ -19,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution0923.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0827.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="374">
+              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0926.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -53,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/L101_SymmetricTree/Solution0731.java" />
         <option value="$PROJECT_DIR$/src/L35_SearchInsertPosition/Solution0824.java" />
         <option value="$PROJECT_DIR$/src/L13_RomanToInteger/Solution0826.java" />
         <option value="$PROJECT_DIR$/src/L53_MaximumSubarray/Solution0826.java" />
@@ -104,14 +112,15 @@
         <option value="$PROJECT_DIR$/src/L111_MinimumDepthofBinaryTree/Solution0920.java" />
         <option value="$PROJECT_DIR$/src/待汇总知识点" />
         <option value="$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution0923.java" />
+        <option value="$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0926.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -123,7 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,13 +149,19 @@
               <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="L14LongestCommonPrefix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="L28_ImplementstrStr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,23 +178,23 @@
     <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\personal\myLeetCode\src\L53_MaximumSubarray\beta0725" />
-      <recent name="D:\personal\myLeetCode\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="L14LongestCommonPrefix" />
-      <recent name="L111_MinimumDepthofBinaryTree" />
-      <recent name="L27_RemoveElement" />
-      <recent name="L38_CountandSay" />
-      <recent name="L1_TwoSum" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\personal\myLeetCode\src\L125_ValidPalindrome" />
       <recent name="D:\personal\myLeetCode\src\L122_BestTimetoBuyandSellStockII" />
       <recent name="D:\personal\myLeetCode\src\L119_PascalTriangleII" />
       <recent name="D:\personal\myLeetCode\src\L118_PascalTriangle" />
       <recent name="D:\personal\myLeetCode\src\L112_PathSum" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="L28_ImplementstrStr" />
+      <recent name="L14LongestCommonPrefix" />
+      <recent name="L111_MinimumDepthofBinaryTree" />
+      <recent name="L27_RemoveElement" />
+      <recent name="L38_CountandSay" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal\myLeetCode\src\L53_MaximumSubarray\beta0725" />
+      <recent name="D:\personal\myLeetCode\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,14 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution0923">
-    <configuration name="Solution0919 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L38_CountandSay.Solution0919" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution0926">
     <configuration name="Solution0919 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="L14LongestCommonPrefix.Solution0919" />
       <module name="leetcode" />
@@ -230,13 +238,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution0926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L28_ImplementstrStr.Solution0926" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution0926" />
         <item itemvalue="Application.Solution0923" />
         <item itemvalue="Application.Solution0920 (1)" />
         <item itemvalue="Application.Solution0920" />
         <item itemvalue="Application.Solution0919 (2)" />
-        <item itemvalue="Application.Solution0919 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,13 +271,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.34985834" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.34844193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41784704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,8 +364,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="复习&#10;101 对称树 深度递归和广度层序&#10;108 二分生成二叉排序树&#10;111 最小深度 深度递归和广度层序" />
-    <MESSAGE value="学习&#10;112 树的路径和&#10;118 杨辉三角1" />
     <MESSAGE value="学习&#10;122  股票多次交易" />
     <MESSAGE value="学习119 杨辉三角2" />
     <MESSAGE value="复习&#10;38 报数&#10;53 最大子序列&#10;107 层序二叉树，反排列&#10;121 一次卖股票" />
@@ -374,7 +387,9 @@
     <MESSAGE value="复习&#10;21 合并有序链表&#10;20 有效括号&#10;67 字符串二进制相加&#10;108 有序数组构建平衡二叉树" />
     <MESSAGE value="复习&#10;1两数和&#10;14 最长的公共子串&#10;38 报数&#10;112 树上的 路径和" />
     <MESSAGE value="复习&#10;27 移除重复元素&#10;14 最大公共前缀&#10;111 树的最小深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="复习&#10;27 移除重复元素&#10;14 最大公共前缀&#10;111 树的最小深度" />
+    <MESSAGE value="复习&#10;27 移除重复元素&#10;14 最大公共前缀" />
+    <MESSAGE value="复习&#10;&#10;14 最大公共前缀" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习&#10;&#10;14 最大公共前缀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,20 +506,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/L70_ClimbingStairs/Solution0719.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/L70_ClimbingStairs/Solution0828.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/L70_ClimbingStairs/note">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -837,8 +838,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution0923.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-114">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0827.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L28_ImplementstrStr/Solution0926.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
