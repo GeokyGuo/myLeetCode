@@ -12,7 +12,7 @@ public class L15_3Sum {
 //        int[] nums = {-2, 0, 0, 2, 2};
 //        int[] nums = {-1, -1, 0, 1};
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        List re = threeSum2(nums);
+        List re = threeSum4(nums);
         System.out.println(re.toString());
     }
 
@@ -140,4 +140,36 @@ public class L15_3Sum {
 
         return reList;
     }
+
+
+    public static List<List<Integer>> threeSum4(int[] nums) {
+        List<List<Integer>> re = new ArrayList<>();
+        Arrays.sort(nums);
+
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] > 0) return re;
+            if(i > 0 && nums[i] == nums[i - 1]) continue;
+
+            int j = i + 1;
+            int k = nums.length - 1;
+
+            while(j < k){
+                if(nums[i] + nums[j] + nums[k] < 0) j++;
+                if(nums[i] + nums[j] + nums[k] > 0) k--;
+                if(nums[i] + nums[j] + nums[k] == 0){
+                    List<Integer> list = Arrays.asList(nums[i], nums[j], nums[k]);
+                    re.add(list);
+                    j++;
+                    k--;
+                    while(j < k && nums[j] == nums[j-1]) j++;
+                    while(j < k && nums[k] == nums[k+1]) k--;
+                }
+            }
+
+        }
+
+        return re;
+    }
+//    复习出现的问题，第一个是 continue那里笔误，把i-1 写成i--
+    //第二个问题是 没有理清 三个并列if 与 if else的关系，三个if有可能都要执行，但是出现了else 就只能选其中一个
 }

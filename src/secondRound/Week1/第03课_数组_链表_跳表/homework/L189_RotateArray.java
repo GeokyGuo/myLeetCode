@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class L189_RotateArray {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
-        rotate3(nums, 3);
+        rotate6(nums, 3);
         System.out.println(Arrays.toString(nums));
 
     }
@@ -133,4 +133,25 @@ public class L189_RotateArray {
         }
     }
 
+    //复习 环状替代法
+    public static void rotate6(int[] nums, int k) {
+
+        k %= nums.length;
+        int count = 0;
+
+        for (int start = 0; count < nums.length; start++) {
+            int next = start;
+            int temp1 = nums[start];
+            int temp2;
+            while (true) {
+                next = (next + k) % nums.length;
+                temp2 = nums[next];
+                nums[next] = temp1;
+                temp1 = temp2;
+                count++;
+                if (next == start) break;
+            }
+
+        }
+    }
 }

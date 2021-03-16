@@ -37,7 +37,6 @@ public class L1_TwoSum {
             if (nums[i] + nums[j] > target) j--;
             if (nums[i] + nums[j] < target) i++;
             if (nums[i] + nums[j] == target) return new int[]{i, j};
-
         }
         return re;
     }

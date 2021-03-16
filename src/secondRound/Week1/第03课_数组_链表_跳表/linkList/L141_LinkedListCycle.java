@@ -43,10 +43,10 @@ public class L141_LinkedListCycle {
             slow = slow.next;
             fast = fast.next.next;
             if (slow == fast) {
-                break;
+                return  true;
             }
         }
-        return true;
+//        return true;// unreachable statement
     }
 
     //复习

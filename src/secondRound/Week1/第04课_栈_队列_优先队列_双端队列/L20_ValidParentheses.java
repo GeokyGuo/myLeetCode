@@ -6,32 +6,11 @@ import java.util.Stack;
 
 public class L20_ValidParentheses {
     public static void main(String[] args) {
-
+        String s = "]";
+        Boolean bo = isValid5(s);
+        System.out.println(bo);
     }
 
-    public boolean isValid(String s) {
-        if (s.equals("")) {
-            return true;
-        }
-        Stack<Character> stack = new Stack<>();
-        stack.push('I');
-
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == stack.peek()) {
-                stack.pop();
-            } else if (s.charAt(i) == '(') {
-                stack.push(')');
-            } else if (s.charAt(i) == '{') {
-                stack.push('}');
-            } else if (s.charAt(i) == '[') {
-                stack.push(']');
-            } else {
-                return false;
-            }
-        }
-        stack.pop();
-        return stack.isEmpty();
-    }
 
     //标准，参考
     public boolean isValid2(String s) {
@@ -57,6 +36,29 @@ public class L20_ValidParentheses {
         }
 
         return stack.isEmpty();
+    }
+
+    static public boolean isValid5(String s) {
+        if(s == null || s.length() == 0){
+            return false;
+        }
+        Deque<Character> deque = new ArrayDeque<>();
+
+        int i = 0;
+        while(i < s.length()){
+            Character c = s.charAt(i);
+            if(!deque.isEmpty() && c == ')' && '(' == deque.peekLast()){
+                deque.pollLast();
+            }else if(!deque.isEmpty() && ']' == c && '[' == deque.peekLast()){
+                deque.pollLast();
+            }else if(!deque.isEmpty() && c == '}' && '{' ==deque.peekLast() ){
+                deque.pollLast();
+            }else{
+                deque.offerLast(s.charAt(i));
+            }
+            i++;
+        }
+        return deque.isEmpty()  ? true: false;
     }
 
 }

@@ -4,7 +4,7 @@ public class L11_ContainerWithMostWater {
 
     public static void main(String[] args) {
         int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        System.out.println(maxArea2(height));
+        System.out.println(maxArea4(height));
     }
 
     public static int maxArea1(int[] height) {
@@ -50,8 +50,26 @@ public class L11_ContainerWithMostWater {
             if (height[i] < height[j]) {
                 i++;
             } else {
-                j++;
+                j--;
             }
+        }
+        return max;
+    }
+
+    public static int maxArea4(int[] height) {
+        int i = 0;
+        int j = height.length-1;
+        int max = 0;
+        int area = 0;
+        while(i < j){
+            if(height[i] < height[j]){
+                area = height[i] * (j - i);
+                while(i < j && height[i] < height[i + 1]) i++;
+            }else{
+                area = height[j] * (j - i);
+                while(i < j && height[j] < height[j - 1]) j--;
+            }
+            max = area > max ? area : max;
         }
         return max;
     }

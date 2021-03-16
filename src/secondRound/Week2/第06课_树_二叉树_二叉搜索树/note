@@ -1,0 +1,51 @@
+中序
+
+栈S;
+p= root;
+while(p || S不空){
+    while(p){
+        p入S;
+        p = p的左子树;
+    }
+    p = S.top 出栈;
+    访问p;
+    p = p的右子树;
+}
+
+
+先序
+栈S;
+p= root;
+while(p || S不空){
+    while(p){
+        访问p节点；
+        p的右子树入S;
+        p = p的左子树;
+    }
+    p = S栈顶弹出;
+}
+
+
+后序
+栈S;
+p= root;
+T<节点,True/False> : 节点标记;
+while(p || S不空){
+    while(p){
+        p入S;
+        p = p的左子树;
+    }
+    while(S不空 且 T[S.top] = True){
+        访问S.top;
+        S.top出S;
+    }
+    if(S不空){
+        p = S.top 的右子树;
+        T[S.top] = True;
+    }
+}
+
+
+加上 迭代  的大一统笔记！！
+
+树本身就是递归的定义所以，代码也经常递归来写

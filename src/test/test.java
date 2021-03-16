@@ -3,23 +3,29 @@ package test;
 
 import util.TreeNode;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class test {
-    public static Sout<Innesout> insout = new Sout<Innesout>(new Innesout());
+
     public static void main(String[] args) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(null);
-        System.out.println(queue.size());
-    }
+//        Queue<TreeNode> queue = new LinkedList<>();
+//        queue.add(null);
+//        System.out.println(queue.size());
 
-    private static class Sout<I> {
-        public Sout(I innesout) {
+//        Deque<Integer> stack = new ArrayDeque<>();
 
+        String str = "adfad\\n";
+
+        for (char c : str.toCharArray()) {
+            System.out.println(c);
         }
-    }
-    private static class Innesout {
+        System.out.println(str);
+
+        System.out.println(str.contains("\\n"));
+
+        String news = str.replace("\\n","\r\n");
+        System.out.println(news);
+        System.out.println(news);
 
     }
 }

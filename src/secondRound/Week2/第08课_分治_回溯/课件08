@@ -1,0 +1,33 @@
+预习题目
+•	https://leetcode-cn.com/problems/powx-n/
+•	https://leetcode-cn.com/problems/subsets/
+
+实战题目
+•	https://leetcode-cn.com/problems/majority-element/description/ （简单、但是高频）
+•	https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+•	https://leetcode-cn.com/problems/n-queens/
+
+
+分治的模板
+private static int divide_conquer(Problem problem, ) {
+
+  if (problem == NULL) {
+    int res = process_last46_result();
+    return res;
+  }
+  subProblems = split_problem(problem)
+
+  res0 = divide_conquer(subProblems[0])
+  res1 = divide_conquer(subProblems[1])
+
+  result = process_result(res0, res1);
+
+  return result;
+}
+
+分治和回溯本质是一样的
+回溯只是需要在path中回退一下，但是 for i in nums，也是去分治
+
+？？？？？？
+•	牛顿迭代法原理
+•	牛顿迭代法代码

@@ -19,9 +19,10 @@ public class Solution0920 {
 //
 //        root.left.left.left = new TreeNode(4);
 //        root.left.left.right = new TreeNode(4);
-
-
-        System.out.println(minDepth(root));
+        root.right = new TreeNode(1);
+        root.left.left = new TreeNode(2);
+        minDepth(root);
+//        System.out.println(minDepth(root));
     }
 
     public static int minDepth(TreeNode root) {
@@ -34,6 +35,7 @@ public class Solution0920 {
 
         int left = minDepth(root.left);
         int right = minDepth(root.right);
+
         return Math.min(left, right) + 1;
     }
 

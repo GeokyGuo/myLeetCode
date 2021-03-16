@@ -13,51 +13,12 @@ public class L21_MergeTwoSortedLists {
         ListNode l2 = new ListNode(1);
         l2.next = new ListNode(3);
         l2.next.next = new ListNode(4);
-        ListNode re = mergeTwoLists(l1, l2);
+        ListNode re = mergeTwoLists1(l1, l2);
         while (re != null) {
             System.out.println(re.val);
             re = re.next;
         }
     }
-
-    //自己一遍ac的穿针引线法   还有搬运了一个递归法，也比较有趣
-    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null) {
-            return l2;
-        }
-        if (l1 == null) {
-            return l1;
-        }
-        ListNode newHead = new ListNode();
-        ListNode tail = newHead;
-        ListNode p1 = l1;
-        ListNode p2 = l2;
-
-        while (p1 != null && p2 != null) {
-            if (p1.val < p2.val) {
-                tail.next = p1;
-                tail = p1;
-                p1 = p1.next;
-                tail.next = null;
-            } else {
-                tail.next = p2;
-                tail = p2;
-                p2 = p2.next;
-                tail.next = null;
-            }
-
-        }
-        if (p1 != null) {
-            tail.next = p1;
-        }
-        if (p2 != null) {
-            tail.next = p2;
-        }
-
-        return newHead.next;
-    }
-
-
     /**
      * 递归法
      */
@@ -95,32 +56,26 @@ public class L21_MergeTwoSortedLists {
         }
     }
 
-    //复习 指针法
+    //复习 指针法--精简
     public static ListNode mergeTwoLists3(ListNode l1, ListNode l2) {
         ListNode newHead = new ListNode();
         ListNode rear = newHead;
-        ListNode p1 = l1;
-        ListNode p2 = l2;
-        while (p1 != null && p2 != null) {
-            if (p1.val < p2.val) {
-                rear.next = p1;
-                rear = p1;
-                p1 = p1.next;
-                rear.next = null;
-            } else {
-                rear.next = p2;
-                rear = p2;
-                p2 = p2.next;
-                rear.next = null;
+
+        while(l1 != null && l2 != null){
+            if(l1.val < l2.val){
+                rear.next = l1;
+                l1 = l1.next;
+            }else{
+                rear.next = l2;
+                l2 = l2.next;
             }
+            rear = rear.next;
+            rear.next = null;
         }
-        if (p1 != null) {
-            rear.next = p1;
-        }
-        if (p2!=null) {
-            rear.next = p2;
-        }
+
+        rear.next = l1 !=null? l1 : l2;
         return newHead.next;
+
     }
 
 }

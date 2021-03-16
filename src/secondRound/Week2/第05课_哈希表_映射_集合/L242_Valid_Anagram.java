@@ -19,24 +19,6 @@ public class L242_Valid_Anagram {
         return Arrays.equals(sChars, tChars);
     }
 
-    //方法2  hash table
-    public boolean isAnagram2(String s, String t) {
-        int[] hashTable = new int[26];
-
-        for (char c : s.toCharArray()) {
-            int index = c - 'a';
-            hashTable[index] += 1;
-
-        }
-        for (char c : t.toCharArray()) {
-            int index = c - 'a';
-            hashTable[index] -= 1;
-        }
-        for (int i : hashTable) {
-            if (i != 0) return false;
-        }
-        return true;
-    }
 
     //标准 参考
     public boolean isAnagram3(String s, String t) {

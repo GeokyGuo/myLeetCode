@@ -1,0 +1,38 @@
+「BFS 遍历」、「层序遍历」、「最短路径」实际上是递进的关系，岛屿与dfs bfs
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/bfs-de-shi-yong-chang-jing-zong-jie-ceng-xu-bian-l/
+
+
+BFS的基础模板
+level = 0
+while queue 不空：
+    size = queue.size()
+    while (size --) {
+        cur = queue.pop()
+        for 节点 in cur的所有相邻节点：
+            if 该节点有效且未被访问过：
+                queue.push(该节点)
+    }
+    level ++;
+
+
+图的题目中：
+1.记住bfs和dfs的模板
+2.尽量有mark数组去标记输入数据是否被访问过，而不是直接去修改数据
+3.图中 最短路径的问题用 bfs去解决
+
+
+
+
+看了个二分法的优秀总结，看他的付费二分法的 试读部分。
+https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
+
+
+一种理解方式就是排除： left < right
+二分法的关键是 在 if中找到一个可以排除 mid点，或者肯定加上mid点的判断
+通常是排除mid比较好想//要在 left -- right中 找到  恰好比 target小的元素，那么严格大于 target的mid肯定是不行的
+
+如果是 left = mid  则要向上取整
+如果是 right = mid 则要向下取整
+
+第二种就是查找：  left <= right
+还要实践一下

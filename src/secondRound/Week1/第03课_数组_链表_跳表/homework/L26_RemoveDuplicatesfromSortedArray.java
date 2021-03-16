@@ -31,15 +31,16 @@ public class L26_RemoveDuplicatesfromSortedArray {
 
     //复习
     public static int removeDuplicates1(int[] nums) {
-        int i = 1, k = 0;
+        int i = 1;
+        int k = 1;
 
-        while (i < nums.length) {
-            if (nums[i] > nums[k]) {
-                nums[++k] = nums[i++];
-            } else {
+        while(i < nums.length){
+            if(nums[i] > nums[i - 1]){
+                nums[k++] = nums[i++];
+            }else{
                 i++;
             }
         }
-        return k + 1;
+        return k;
     }
 }

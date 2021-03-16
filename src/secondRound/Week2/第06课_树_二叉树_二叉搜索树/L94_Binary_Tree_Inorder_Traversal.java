@@ -7,10 +7,8 @@ public class L94_Binary_Tree_Inorder_Traversal {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
-        List reList = inorderTraversal(root);
+        List reList = inorderTraversal2(root);
         System.out.println(Arrays.toString(reList.toArray()));
-
-
     }
 
     public static List<Integer> inorderTraversal(TreeNode root) {
@@ -26,29 +24,43 @@ public class L94_Binary_Tree_Inorder_Traversal {
         inorderTraversal(list, root.right);
     }
 
-    public static List<Integer> inorderTraversal2(TreeNode root) {
+    public static List<Integer> inorderTraversal1(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if (root == null) {
-            return list;
-        }
         Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode p = root;
-        stack.push(p);
-        p = p.left;
 
-        while (!stack.isEmpty()) {
+        while (!stack.isEmpty() || p != null) {
             while (p != null) {
-                stack.push(root);
+                stack.push(p);
                 p = p.left;
             }
             TreeNode temp = stack.pop();
             list.add(temp.val);
-            stack.push(p.right);
+            p = temp.right;
+
+        }
+        return list;
+    }
+
+    //复习
+    public static List<Integer> inorderTraversal2(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode p = root;
+
+        while (p != null || !stack.isEmpty()) {
+            while (p != null) {
+                stack.offerFirst(p);
+                p = p.left;
+            }
+            TreeNode temp = stack.pollFirst();
+            list.add(temp.val);
+            p = temp.right;
         }
 
-
-        return null;
+        return list;
     }
+
 
 }
 

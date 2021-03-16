@@ -10,71 +10,13 @@ public class L24_SwapNodesinPairs {
         te.next = new ListNode(2);
         te.next.next = new ListNode(3);
         te.next.next.next = new ListNode(4);
-        ListNode re = swapPairs1(te);
+        te.next.next.next.next = new ListNode(5);
+
+        ListNode re = swapPairs5(te);
         while (re != null) {
             System.out.println(re.val);
             re = re.next;
         }
-    }
-
-    //自创的头插法，不够优美
-    public static ListNode swapPairs(ListNode head) {
-        if (head == null) {
-            return head;
-        }
-        ListNode pre = head;
-        ListNode last;
-        ListNode temp;
-
-        ListNode first = new ListNode();
-        ListNode tail = first;
-
-        while (pre != null) {
-            last = pre.next;
-            if (last != null) {
-                temp = last.next;
-
-                tail.next = last;
-                last.next = null;
-                tail = tail.next;
-            } else {
-                temp = null;
-
-            }
-            tail.next = pre;
-            pre.next = null;
-            tail = tail.next;
-
-            pre = temp;
-
-        }
-
-        return first.next;
-    }
-
-    public static ListNode swapPairs1(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-
-        ListNode newHead = new ListNode();
-        ListNode pre = newHead;
-        ListNode cur = head;
-        ListNode last = cur.next;
-//        ListNode temp;
-        while (cur != null && last != null) {
-            pre.next = last;
-            cur.next = last.next;
-            last.next = cur;
-
-            pre = cur;
-            cur = pre.next;
-            if (cur != null) {
-                last = cur.next;
-            }
-        }
-
-        return newHead.next;
     }
 
     //仿写并背诵的递归法
@@ -103,15 +45,15 @@ public class L24_SwapNodesinPairs {
         //继续递归，处理节点3->4
         //当递归结束返回后，就变成了4->3
         //于是head节点就指向了4，变成1->4->3
-        ListNode p = swapPairs(tmp.next);
+        ListNode p = swapPairs3(tmp.next);
         head.next = p;
         //将2节点指向1
         tmp.next = head;
         return tmp;
     }
 
-    //复习  交换指针法
-    public ListNode swapPairs5(ListNode head) {
+    //复习  交换指针法 ---改造过的  kgroup中的尾，可以不重复获取
+    public static ListNode swapPairs5(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
@@ -119,17 +61,19 @@ public class L24_SwapNodesinPairs {
         ListNode newHead = new ListNode();
         ListNode pre = newHead;
         ListNode cur = head;
-        ListNode temp = cur.next;
-        while (cur != null && temp != null) {
-            pre.next = temp;
-            cur.next = temp.next;
-            temp.next = cur;
+        ListNode last;
+        ListNode temp ;
+        while (cur != null ) {
+            last = cur.next;
+            if(last == null) break;
+            temp = last.next;
+
+            pre.next = last;
+            last.next = cur;
+            cur.next = temp;
 
             pre = cur;
             cur = cur.next;
-            if (cur != null) {
-                temp = cur.next;
-            }
         }
         return newHead.next;
     }
