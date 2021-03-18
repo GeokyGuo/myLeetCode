@@ -1,4 +1,4 @@
-package secondRound.Week5.L第12课_动态规划;
+package secondRound.Week5.第12课_动态规划;
 
 public class L70_Climbing_Stairs {
     public int climbStairs(int n) {

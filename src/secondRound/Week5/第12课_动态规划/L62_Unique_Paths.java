@@ -1,4 +1,4 @@
-package secondRound.Week5.L第12课_动态规划;
+package secondRound.Week5.第12课_动态规划;
 
 public class L62_Unique_Paths {
     public int uniquePaths(int m, int n) {

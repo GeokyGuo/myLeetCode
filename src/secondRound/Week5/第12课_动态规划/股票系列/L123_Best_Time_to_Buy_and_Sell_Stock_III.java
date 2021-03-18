@@ -1,7 +1,4 @@
-package secondRound.Week5.L第12课_动态规划.股票系列;
-
-import java.util.ArrayDeque;
-import java.util.Deque;
+package secondRound.Week5.第12课_动态规划.股票系列;
 
 public class L123_Best_Time_to_Buy_and_Sell_Stock_III {
     public int maxProfit(int[] prices) {

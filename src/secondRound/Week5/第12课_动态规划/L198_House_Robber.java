@@ -1,4 +1,4 @@
-package secondRound.Week5.L第12课_动态规划;
+package secondRound.Week5.第12课_动态规划;
 
 public class L198_House_Robber {
     public int rob(int[] nums) {

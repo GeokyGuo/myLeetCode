@@ -1,4 +1,4 @@
-package secondRound.Week5.L第12课_动态规划.股票系列;
+package secondRound.Week5.第12课_动态规划.股票系列;
 
 public class L714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee {
     public int maxProfit(int[] prices, int fee) {
