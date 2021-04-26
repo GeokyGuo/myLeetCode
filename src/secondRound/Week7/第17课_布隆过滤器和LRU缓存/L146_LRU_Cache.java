@@ -1,6 +1,7 @@
-package other;
+package secondRound.Week7.第17课_布隆过滤器和LRU缓存;
 
 import java.util.HashMap;
+import java.util.Map;
 
 class L146_LRU_Cache {
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ class L146_LRU_Cache {
         cache.put(0, 0);
 //        cache.put(2, 2);
         int a = cache.get(0);       // 返回 1
-        System.out.println("0"+a);
+        System.out.println("0" + a);
 
 //        cache.put(3, 3);    // 去除 key 2
 //        a = cache.get(2);       // 返回 -1 (未找到key 2)
@@ -18,79 +19,73 @@ class L146_LRU_Cache {
 
 
     }
-    class Node{
+
+    class Node {
         Node pre;
         Node next;
         int key;
         int val;
-        Node(int k, int v){
-            key = k;
-            val = v;
+
+        Node(int key, int val) {
+            this.key = key;
+            this.val = val;
+            pre = this;
+            next = this;
         }
     }
 
-    HashMap<Integer, Node> map = new HashMap<>();
+    Map<Integer, Node> map;
+    Node head;
     int capacity;
-    Node head = new Node(-1, -1);
-    Node tail = new Node(-1, -1);
 
     public L146_LRU_Cache(int capacity) {
         this.capacity = capacity;
-        head.next = tail;
-        tail.pre = head;
+        this.map = new HashMap<>();
+        this.head = new Node(-1, -1);
     }
 
     public int get(int key) {
-        if(map.containsKey(key)){
+        if (map.containsKey(key)) {
             Node node = map.get(key);
             del(node);
             refresh(node);
             return node.val;
-
-        }else{
+        } else {
             return -1;
         }
     }
 
     public void put(int key, int value) {
-        if (capacity == 0) {
-            return;
-        }//防止 还没有生成任何一个链表的时候，就因为容量不够要删除导致的空指针  59行
-        if(map.containsKey(key)){
+        if (map.containsKey(key)) {
             Node node = map.get(key);
-            del(node);
             node.val = value;
+            del(node);
             refresh(node);
-        }else{
-            if(map.size() == capacity){
-                map.remove(tail.pre.key);
-                del(tail.pre);
-            }
+        } else {
             Node node = new Node(key, value);
-            map.put(key,node);
             refresh(node);
+            map.put(key, node);
+            if (map.size() > capacity) {
+                node = head.pre;
+                del(node);
+                map.remove(node.key);
+            }
         }
     }
 
-    private void refresh(Node node){
-//        node.next.pre = node.pre;
-//        node.pre.next = node.next;
+    private void del(Node node) {
+        node.next.pre = node.pre;
+        node.pre.next = node.next;
+    }
 
+    private void refresh(Node node) {
         node.next = head.next;
-        head.next.pre = node;
+        node.next.pre = node;
         node.pre = head;
         head.next = node;
     }
-    private void del(Node node){
-        // tail.pre.pre.next = tail;
-        // tail.pre = tail.pre.pre;
-
-
-//        Node node = tail.pre;
-        node.pre.next = node.next;
-        node.next.pre = node.pre;
-    }
 }
+
 
 /**
  * Your LRUCache object will be instantiated and called as such:
@@ -98,3 +93,7 @@ class L146_LRU_Cache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
+
+//https://www.bilibili.com/video/BV1mE411S7kp?t=2
+//理解两点，第一为啥要用双向链表，在摘除当前node的时候方便查找前序节点，
+//            第二为node节点要同时包含 key 和val， 因为map中删除key时，这个key的值来源与node

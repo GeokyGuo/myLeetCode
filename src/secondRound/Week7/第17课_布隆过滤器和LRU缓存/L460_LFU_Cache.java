@@ -1,4 +1,4 @@
-package other;
+package secondRound.Week7.第17课_布隆过滤器和LRU缓存;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -57,12 +57,12 @@ class L460_LFU_Cache {
         } else {
             if (keyTable.size() == capacity) {
                 Node node = freqTable.get(minFreq).peekLast();
-                keyTable.remove(node.key);
+                keyTable.remove(node.key);//完全删除  容易忘
                 delOldNode(node);
             }
             Node temp = new Node(key, value, 1);
             keyTable.put(key, temp);
-            addNewNode(temp);
+            addNewNode(temp);//完全添加 容易忘
             minFreq = 1;
         }
     }
@@ -70,7 +70,7 @@ class L460_LFU_Cache {
     private void addNewNode(Node node) {
         LinkedList<Node> list = freqTable.getOrDefault(node.freq, new LinkedList<Node>());
         list.offerFirst(node);
-        freqTable.put(node.freq, list);
+        freqTable.put(node.freq, list);//容易忘
     }
 
     private void delOldNode(Node node) {
