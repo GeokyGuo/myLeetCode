@@ -1,4 +1,4 @@
-package daily_commit;
+package daily_commit.Y21_May;
 
 public class L7_Reverse_Integer {
     public int reverse(int x) {
