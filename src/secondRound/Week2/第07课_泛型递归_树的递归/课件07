@@ -7,21 +7,25 @@
 •	如何优雅地计算斐波那契数列？？？
 
 实战题目
-•	https://leetcode-cn.com/problems/climbing-stairs/
-•	https://leetcode-cn.com/problems/generate-parentheses/
+•	70https://leetcode-cn.com/problems/climbing-stairs/
+•	22https://leetcode-cn.com/problems/generate-parentheses/
 
-•	https://leetcode-cn.com/problems/invert-binary-tree/description/
-•	https://leetcode-cn.com/problems/validate-binary-search-tree
-•	https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
-•	https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
-•	https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+•	226https://leetcode-cn.com/problems/invert-binary-tree/description/
+•	98https://leetcode-cn.com/problems/validate-binary-search-tree
+•	104https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
+•	111https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
+•	297https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
 
 课后作业
-•	https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
-•	https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+•	236https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+•	105https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 
 •	https://leetcode-cn.com/problems/combinations/
 •	https://leetcode-cn.com/problems/subsets/
 •	https://leetcode-cn.com/problems/permutations/
 
 •	https://leetcode-cn.com/problems/permutations-ii/
+
+
+回溯的题型
+https://leetcode.cn/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/

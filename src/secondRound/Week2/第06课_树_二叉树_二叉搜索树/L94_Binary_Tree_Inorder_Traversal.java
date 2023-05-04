@@ -61,6 +61,25 @@ public class L94_Binary_Tree_Inorder_Traversal {
         return list;
     }
 
+    //94 其他解法
+    public List<Integer> inorderTraversal(util.TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        util.TreeNode cur = root;
+        Deque<util.TreeNode> stack = new ArrayDeque<>();
+
+        while (cur != null || !stack.isEmpty()) {
+            if (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            } else {
+                util.TreeNode pop = stack.pop();
+                res.add(pop.val);
+                cur = pop.right;
+            }
+        }
+        return res;
+    }
+
 
 }
 

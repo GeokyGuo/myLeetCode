@@ -2,7 +2,7 @@ package secondRound.Week2.第08课_分治_回溯;
 
 public class L169_Majority_Element {
     public static void main(String[] args) {
-        int[] a = {3,2,3};
+        int[] a = {3, 2, 3};
         int re = majorityElement2(a);
         System.out.println(re);
     }
@@ -41,7 +41,8 @@ public class L169_Majority_Element {
     }
 
 
-    //本题用投票算法是最佳的算法
+    //本题用投票算法是最佳的算法,投票法的进阶，最好再增加一个计票的阶段
+//    https://leetcode.cn/problems/majority-element-ii/
     public int majorityElement1(int[] nums) {
         int count = 0;
         Integer candidate = null;
@@ -60,8 +61,8 @@ public class L169_Majority_Element {
         int count = 1;
         int candidate = nums[0];
 
-        for(int i = 1; i < nums.length; i++){
-            if(count == 0){
+        for (int i = 1; i < nums.length; i++) {
+            if (count == 0) {
                 candidate = nums[i];
             }
             count += (nums[i] == candidate) ? 1 : -1;

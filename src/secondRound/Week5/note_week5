@@ -1,0 +1,30 @@
+背包问题
+https://leetcode.cn/problems/coin-change/solution/by-flix-su7s/
+https://leetcode.cn/problems/coin-change/solution/yi-pian-wen-zhang-chi-tou-bei-bao-wen-ti-sq9n/
+
+其他动态规划的习题
+
+帮助理解二维动态规划
+https://leetcode.cn/problems/maximum-length-of-repeated-subarray/solution/yi-zhang-biao-ba-ju-hua-kan-dong-dong-tai-gui-hua-/
+
+两个串：
+最长公共子串和最长公共子序列（子序列与子串的区别：子串要求连续，子序列不一定连续）
+https://mp.weixin.qq.com/s/XJyujBI5nofVE9CUbStemA
+牛客公共子串 75
+https://www.nowcoder.com/practice/98dc82c094e043ccb7e0570e5342dd1b?tpId=37&tqId=21298&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Fdifficulty%3D3%26page%3D1%26pageSize%3D50%26search%3D%26tab%3D%25E5%2590%258D%25E4%25BC%2581%25E7%259C%259F%25E9%25A2%2598%26topicId%3D37&difficulty=3&judgeStatus=undefined&tags=&title=
+牛客公共子串 65
+https://www.nowcoder.com/practice/181a1a71c7574266ad07f9739f791506?tpId=37&tqId=21288&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Fdifficulty%3D3%26page%3D1%26pageSize%3D50%26search%3D%26tab%3D%25E5%2590%258D%25E4%25BC%2581%25E7%259C%259F%25E9%25A2%2598%26topicId%3D37&difficulty=3&judgeStatus=3&tags=&title=
+
+单个串：
+最长上升子序列的大小
+https://lucifer.ren/blog/2020/06/20/LIS/
+最长回文串的大小  牛客中等32
+https://www.nowcoder.com/practice/3cd4621963e8454594f00199f4536bb1?tpId=37&tqId=21255&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Fdifficulty%3D3%26page%3D1%26pageSize%3D50%26search%3D%26tab%3D%25E5%2590%258D%25E4%25BC%2581%25E7%259C%259F%25E9%25A2%2598%26topicId%3D37&difficulty=3&judgeStatus=undefined&tags=&title=
+最长的数字串 牛客92
+https://www.nowcoder.com/practice/2c81f88ecd5a4cc395b5308a99afbbec?tpId=37&tqId=21315&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Fdifficulty%3D3%26page%3D1%26pageSize%3D50%26search%3D%26tab%3D%25E5%2590%258D%25E4%25BC%2581%25E7%259C%259F%25E9%25A2%2598%26topicId%3D37&difficulty=3&judgeStatus=undefined&tags=&title=
+
+其他子序列问题提
+https://leetcode.cn/problems/maximum-length-of-repeated-subarray/solution/dai-ma-sui-xiang-lu-718-zui-chang-zhong-rowbh/
+
+
+牛客41题，自己的动态规划思路是错的，可以参考

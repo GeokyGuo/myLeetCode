@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="915e53cc-f376-4343-8b71-9c4c2d453649" name="Default Changelist" comment="20210316">
+      <change afterPath="$PROJECT_DIR$/src/复习一轮/test03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/note_week2" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/note_week2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L144_Binary_Tree_Preorder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L144_Binary_Tree_Preorder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L145_Binary_Tree_Postorder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L145_Binary_Tree_Postorder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L94_Binary_Tree_Inorder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L94_Binary_Tree_Inorder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/Note_前中后DFS大一统_后序巧解.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/Note_前中后DFS大一统_后序巧解.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/L236_Lowest_Common_Ancestor_of_a_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/L236_Lowest_Common_Ancestor_of_a_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/L297_Serialize_and_Deserialize_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/L297_Serialize_and_Deserialize_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/回溯递归/note" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/回溯递归/note" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/课件07" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/课件07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week2/第08课_分治_回溯/L169_Majority_Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week2/第08课_分治_回溯/L169_Majority_Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week3/note_week3" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week3/note_week3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week3/第09课_深度优先搜索和广度优先搜索/课件09" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week3/第09课_深度优先搜索和广度优先搜索/课件09" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week3/第10课_贪心算法/课件10" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week3/第10课_贪心算法/课件10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/L367_Valid_Perfect_Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/L367_Valid_Perfect_Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/课件11" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/课件11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week5/note_week5" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week5/note_week5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week5/第12课_动态规划/L322_Coin_Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week5/第12课_动态规划/L322_Coin_Change.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondRound/Week5/第12课_动态规划/课件12" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondRound/Week5/第12课_动态规划/课件12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Knowlege_Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/复习一轮/Knowlege_Deque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path=".vscode/settings.json" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,99 +38,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="myLeetCode" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daily_commit/L403_Frog_Jump.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/daily_commit/L7_Reverse_Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daily_commit/L137_Single_Number_II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/L74_Search_a_2D_Matrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/L153_Find_Minimum_in_Rotated_Sorted_Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/secondRound/Week3/第11课_二分查找/L367_Valid_Perfect_Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/secondRound/Week8/第18课_排序算法/无场景排序/归并排序/二路归并.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/secondRound/Week8/第18课_排序算法/无场景排序/归并排序/多路归并.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -164,6 +88,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/secondRound/Week2/note_week2" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/secondRound/Week2/第08课_分治_回溯/课件08" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/secondRound/Week2/第08课_分治_回溯/L17_Letter_Combinations_of_a_Phone_Number.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/secondRound/Week2/第08课_分治_回溯/L169_Majority_Element.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -233,6 +171,7 @@
     <option name="width" value="1935" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectId" id="2Oe9ErDHwpYiqvlsamGX4QNMU5E" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -269,11 +208,20 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/secondRound/Week8/第20课_字符串算法" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -293,13 +241,6 @@
       <recent name="D:\personal\leetcode\myLeetCode\src\secondRound\Week7\第16课_位运算" />
       <recent name="D:\personal\leetcode\myLeetCode\src\secondRound\Week6\第13课_字典树和并查集" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="other" />
-      <recent name="test" />
-      <recent name="L28_ImplementstrStr" />
-      <recent name="L14LongestCommonPrefix" />
-      <recent name="L111_MinimumDepthofBinaryTree" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\personal\myLeetCode\src\secondRound\Week2\第06课_树_二叉树_二叉搜索树" />
       <recent name="D:\personal\myLeetCode\src\secondRound\Week1\第03课_数组_链表_跳表" />
@@ -307,74 +248,110 @@
       <recent name="D:\personal\myLeetCode\src\secondRound\Week1" />
       <recent name="D:\personal\myLeetCode\src\secondRound\第03课_数组_链表_跳表" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="other" />
+      <recent name="L28_ImplementstrStr" />
+      <recent name="L14LongestCommonPrefix" />
+      <recent name="L111_MinimumDepthofBinaryTree" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.L403_Frog_Jump">
-    <configuration name="直接选择" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondRound.Week8.第18课_排序算法.无场景排序.选择.直接选择" />
+  <component name="RunManager" selected="Application.test48">
+    <configuration name="test41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW牛客.中等.test41" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW牛客.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L403_Frog_Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daily_commit.L403_Frog_Jump" />
+    <configuration name="test45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW牛客.中等.test45" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW牛客.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L541_Reverse_String_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondRound.Week8.第20课_字符串算法.L541_Reverse_String_II" />
+    <configuration name="test48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW牛客.中等.test48" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW牛客.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L557_Reverse_Words_in_a_String_III" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondRound.Week8.第20课_字符串算法.L557_Reverse_Words_in_a_String_III" />
+    <configuration name="test75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW牛客.中等.test75" />
       <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW牛客.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L58_Length_of_Last_Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondRound.Week8.第20课_字符串算法.L58_Length_of_Last_Word" />
+    <configuration name="test92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW牛客.中等.test92" />
       <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondRound.Week8.第18课_排序算法.无场景排序.选择.堆排序" />
-      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW牛客.中等.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L403_Frog_Jump" />
-        <item itemvalue="Application.L557_Reverse_Words_in_a_String_III" />
-        <item itemvalue="Application.L541_Reverse_String_II" />
-        <item itemvalue="Application.L58_Length_of_Last_Word" />
-        <item itemvalue="Application.直接选择" />
+        <item itemvalue="Application.test48" />
+        <item itemvalue="Application.test45" />
+        <item itemvalue="Application.test75" />
+        <item itemvalue="Application.test92" />
+        <item itemvalue="Application.test41" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1681910071656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681910071656</updated>
+      <workItem from="1681910073097" duration="900000" />
+      <workItem from="1681911370468" duration="170940000" />
+      <workItem from="1682581544180" duration="7346000" />
+      <workItem from="1682591066265" duration="314000" />
+      <workItem from="1682738516441" duration="2119000" />
+      <workItem from="1682741226802" duration="75219000" />
+      <workItem from="1683118937120" duration="10217000" />
+      <workItem from="1683168765535" duration="5782000" />
+    </task>
+    <servers />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,29 +422,14 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -486,6 +448,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="学习&#10;136 数组中找落单的数" />
@@ -521,248 +484,383 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L66_PlusOne/Solution.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L69_SqrtX/Solution.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/Solution.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L88_MergeSortedArray/Solution.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L67_AddBinary/Solution0718.java</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L69_SqrtX/Solution0719.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L83_RemoveDuplicatesfromSortedList/Solution0722.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution0724.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L111_MinimumDepthofBinaryTree/Solution0731.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L107_BinaryTreeLevelOrderTraversal2/Solution0802.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L38_CountandSay/Solution0802.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L125_ValidPalindrome/Solution.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L69_SqrtX/Solution0815.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L20_ValidParentheses/Solution0820.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L125_ValidPalindrome/Solution0830.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L67_AddBinary/Solution0918.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L14LongestCommonPrefix/Solution0919.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/homework/L189_RotateArray.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第04课_栈_队列_优先队列_双端队列/L239_SlidingWindowMaximum.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第04课_栈_队列_优先队列_双端队列/L42_TrappingRainWater.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/homework/L189_RotateArray.java</url>
           <line>83</line>
-          <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L94_Binary_Tree_Inorder_Traversal.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L145_Binary_Tree_Postorder_Traversal.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week2/第06课_树_二叉树_二叉搜索树/L144_Binary_Tree_Preorder_Traversal.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week2/第07课_泛型递归_树的递归/回溯递归/L77_Combinations.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/homework/L189_RotateArray.java</url>
           <line>142</line>
-          <properties />
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week2/第08课_分治_回溯/L169_Majority_Element.java</url>
-          <line>60</line>
-          <properties />
+          <line>61</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/array/L11_ContainerWithMostWater.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/array/L15_3Sum.java</url>
           <line>148</line>
-          <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/linkList/L25_test.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第03课_数组_链表_跳表/linkList/L25_test.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week1/第04课_栈_队列_优先队列_双端队列/L20_ValidParentheses.java</url>
           <line>51</line>
-          <properties />
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Knowlege_Deque.java</url>
+          <url>file://$PROJECT_DIR$/src/复习一轮/Knowlege_Deque.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week3/第09课_深度优先搜索和广度优先搜索/L127_Word_Ladder.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week3/第09课_深度优先搜索和广度优先搜索/L127_Word_Ladder.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week3/第09课_深度优先搜索和广度优先搜索/L529_Minesweeper.java</url>
           <line>101</line>
-          <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week3/第09课_深度优先搜索和广度优先搜索/L433_Minimum_Genetic_Mutation.java</url>
           <line>67</line>
-          <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week5/第12课_动态规划/L32_Longest_Valid_Parentheses.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/secondRound/Week8/第18课_排序算法/无场景排序/插入/折半插入.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/复习一轮/test03.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/复习一轮/test04.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/复习一轮/test07.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/复习一轮/test11.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test68.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test68.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test107.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test107.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test59.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test59.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test59.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test33.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test97.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test31.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/输入输出练习.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test54复习.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test02.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test08.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test22.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test22.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test22.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test73.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test80.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test99.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test99.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test09.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/简单/test54复习.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test29.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test32.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test32.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test75.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test45.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test48.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HW牛客/中等/test48.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="198" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="util.ListNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="first.next" />
+        <watch expression="first.next" language="JAVA" />
         <watch expression="cache" />
       </configuration>
     </watches-manager>

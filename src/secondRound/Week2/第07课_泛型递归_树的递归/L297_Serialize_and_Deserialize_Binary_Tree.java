@@ -9,11 +9,13 @@ import java.util.List;
 public class L297_Serialize_and_Deserialize_Binary_Tree {
 
     public static void main(String[] args) {
-    TreeNode root = new TreeNode(1);
-    root.left = new TreeNode(2);
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
         System.out.println(serialize(root));
     }
 //    https://zhuanlan.zhihu.com/p/26418233
+
     /**
      * 二叉树序列化能够重建的充分条件
      * 　　上文讨论的所有情况，可以总结成如下的「定理」：
@@ -31,7 +33,7 @@ public class L297_Serialize_and_Deserialize_Binary_Tree {
      **/
 
     // Encodes a tree to a single string.
-    public  static String serialize(TreeNode root) {
+    public static String serialize(TreeNode root) {
         if (root == null) {
             return "#,";
         }

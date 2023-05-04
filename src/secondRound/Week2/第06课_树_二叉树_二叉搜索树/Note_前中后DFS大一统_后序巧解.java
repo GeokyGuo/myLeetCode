@@ -23,10 +23,11 @@ public class Note_前中后DFS大一统_后序巧解 {
             colorTreeNode node = stack.pollFirst();
 
             if (node.flag == 0) {//第一次出栈
-                if (node.node.right != null) stack.offerFirst(new colorTreeNode(node.node.right, 0)); //进栈标0，为出栈做准备，最终一定要出栈
-                stack.offerFirst(new colorTreeNode(node.node, 1));
-                if (node.node.left != null) stack.offerFirst(new colorTreeNode(node.node.left, 0));
 
+                stack.offerFirst(new colorTreeNode(node.node, 1));
+                if (node.node.right != null)
+                    stack.offerFirst(new colorTreeNode(node.node.right, 0)); //进栈标0，为出栈做准备，最终一定要出栈
+                if (node.node.left != null) stack.offerFirst(new colorTreeNode(node.node.left, 0));
             } else {//第二次出0
                 reList.add(node.node.val);
             }
@@ -69,4 +70,9 @@ class colorTreeNode {
 //
 //    修改前序遍历代码中，每次先查看左节点再查看右节点的逻辑，变为先查看右节点再查看左节点
 
+
+    //2023.04.22 结论：还是要看这两篇文章
+//    https://blog.csdn.net/My_Jobs/article/details/43451187
+//    https://leetcode.cn/problems/binary-tree-postorder-traversal/solution/die-dai-jie-fa-shi-jian-fu-za-du-onkong-jian-fu-za/
 }
+

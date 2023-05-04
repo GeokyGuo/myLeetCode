@@ -1,8 +1,8 @@
 「BFS 遍历」、「层序遍历」、「最短路径」实际上是递进的关系，岛屿与dfs bfs
 https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/bfs-de-shi-yong-chang-jing-zong-jie-ceng-xu-bian-l/
 
-
 BFS的基础模板
+https://leetcode.cn/problems/minimum-genetic-mutation/solution/by-fuxuemingzhu-t1mv/
 level = 0
 while queue 不空：
     size = queue.size()
@@ -20,19 +20,21 @@ while queue 不空：
 2.尽量有mark数组去标记输入数据是否被访问过，而不是直接去修改数据
 3.图中 最短路径的问题用 bfs去解决
 
+贪心通常需要 排序，并且局部最优推导出全局最优
+比如说发饼干的题目和 背包装价值的题目， 背包题目有重量和价值两个约束限制，不能从局部最优推导出全局最优，所以要用动态规划
 
 
-
-看了个二分法的优秀总结，看他的付费二分法的 试读部分。
+1.看了个二分法的优秀总结，看他的付费二分法的 试读部分。
 https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
+2.关于二分查找自己的一点感悟：
+    2.1二分法的关键是 在 if中找到一个可以排除 mid点，或者肯定加上mid点的判断
+    通常是排除mid比较好想//要在 left -- right中 找到  恰好比 target小的元素，那么严格大于 target的mid肯定是不行的
 
+    2.2如果是 left = mid  则要向上取整
+    如果是 right = mid 则要向下取整
 
-一种理解方式就是排除： left < right
-二分法的关键是 在 if中找到一个可以排除 mid点，或者肯定加上mid点的判断
-通常是排除mid比较好想//要在 left -- right中 找到  恰好比 target小的元素，那么严格大于 target的mid肯定是不行的
+        对于边界是否要包含空的想法
+    2.3如果是向上取整，则查找范围的右边界不能包含空，因为向右取整后可能会取到空
+      对应的，如果是向下取整，则 范围的左边界不能包含空。
 
-如果是 left = mid  则要向上取整
-如果是 right = mid 则要向下取整
-
-第二种就是查找：  left <= right
-还要实践一下
+      对应的while(left< right),当循环结束时，left = right，这时的物理含义是：找到结果了（到达边界也是一种二分的结果，至于这个边界是否符合题目的要求，要再次考虑

@@ -2,15 +2,57 @@ package secondRound.Week2.第07课_泛型递归_树的递归;
 
 import util.TreeNode;
 
-public class L236_Lowest_Common_Ancestor_of_a_Binary_Tree {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null || root == p || root == q) return root;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if(left == null) return right;
-        if(right == null) return left;
+public class L236_Lowest_Common_Ancestor_of_a_Binary_Tree {
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) return root;
+
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
+        if (left == null) return right;
+        if (right == null) return left;
         return root;
+    }
+
+
+    //236
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        Map<TreeNode, TreeNode> parent = new HashMap<>();
+        Set<TreeNode> visited = new HashSet<>();
+
+        dfslowestCommonAncestor(root, parent);
+
+        while (p != null) {
+            visited.add(p);
+            p = parent.get(p);
+        }
+        while (q != null) {
+            if (visited.contains(q)) {
+                return q;
+
+            }
+            q = parent.get(q);
+        }
+        return null;
+    }
+
+    //构建一个记录父节点的容器，前 中 后应该都可以，这里使用前序构建
+    private void dfslowestCommonAncestor(TreeNode root, Map<TreeNode, TreeNode> parent) {
+        if (root == null) return;
+        if (root.left != null) {
+            parent.put(root.left, root);
+        }
+        if (root.right != null) {
+            parent.put(root.right, root);
+        }
+
+        dfslowestCommonAncestor(root.left, parent);
+        dfslowestCommonAncestor(root.right, parent);
+
     }
 }
 
